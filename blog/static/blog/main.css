@@ -111,3 +111,8 @@ a.article-title:hover {
     text-decoration: none;
     margin-left: 20px;
 }
+@media screen and (max-width: 600px) {
+    .content-section.sidebar{
+        display: none;
+    }
+}
